@@ -1,0 +1,27 @@
+node_modules
+
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local databases
+huntly.db
+huntly.db-shm
+huntly.db-wal
+*.sqlite
+*.sqlite3
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
