@@ -4,7 +4,7 @@
     "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     "headless": true
   },
-  "start_url": { "url": "https://example.com" },
+  "start_url": { "url": "https://jobs.whatrunsindia.com/" },
   "capture": {
     "network": {
       "request_body": true,
@@ -14,9 +14,9 @@
   },
   "actions": [
     {
-      "step_id": "wait",
+      "step_id": "wait_home",
       "action": "wait_for_timeout",
-      "timeout_ms": 1000
+      "duration_ms": 4000
     }
   ]
 }

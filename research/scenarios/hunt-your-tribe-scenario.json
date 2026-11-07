@@ -1,0 +1,23 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "headless": true
+  },
+  "start_url": { "url": "https://huntyourtribe.com/" },
+  "capture": {
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": true
+    }
+  },
+  "actions": [
+    {
+      "step_id": "wait_home",
+      "action": "wait_for_timeout",
+      "duration_ms": 4000
+    }
+  ]
+}
+

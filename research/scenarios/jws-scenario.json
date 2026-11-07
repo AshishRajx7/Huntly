@@ -1,0 +1,44 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "headless": true
+  },
+  "start_url": { "url": "https://jobswithstartups.com/" },
+  "capture": {
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": true
+    }
+  },
+  "actions": [
+    {
+      "step_id": "wait_home",
+      "action": "wait_for_timeout",
+      "duration_ms": 3000
+    },
+    {
+      "step_id": "goto_startups",
+      "action": "goto",
+      "destination": { "url": "https://jobswithstartups.com/startups" },
+      "wait_until": "domcontentloaded"
+    },
+    {
+      "step_id": "wait_startups",
+      "action": "wait_for_timeout",
+      "duration_ms": 3000
+    },
+    {
+      "step_id": "goto_investors",
+      "action": "goto",
+      "destination": { "url": "https://jobswithstartups.com/investors" },
+      "wait_until": "domcontentloaded"
+    },
+    {
+      "step_id": "wait_investors",
+      "action": "wait_for_timeout",
+      "duration_ms": 3000
+    }
+  ]
+}
