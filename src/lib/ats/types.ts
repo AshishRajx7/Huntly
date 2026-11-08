@@ -7,7 +7,7 @@ export interface RawCompensation {
 }
 
 export interface RawAtsJob {
-  atsProvider: "ashby" | "greenhouse" | "lever";
+  atsProvider: "ashby" | "greenhouse" | "lever" | "huntyourtribe" | "freehire" | string;
   atsJobId: string;
   companyId: string;
   companyName: string;
@@ -22,13 +22,15 @@ export interface RawAtsJob {
   applicationUrl: string;
   originalPostingDate?: string;
   rawCompensation?: RawCompensation;
+  structuredMinExperience?: number | null;
+  structuredMaxExperience?: number | null;
   metadata?: Record<string, unknown>;
 }
 
 export interface AtsFetchResult {
   companyId: string;
   companyName: string;
-  atsProvider: "ashby" | "greenhouse" | "lever";
+  atsProvider: "ashby" | "greenhouse" | "lever" | "huntyourtribe" | "freehire" | string;
   success: boolean;
   jobs: RawAtsJob[];
   error?: string;

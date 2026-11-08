@@ -102,7 +102,12 @@ export async function syncCompany(
         const existing = db.select().from(jobs).where(eq(jobs.id, normalized.id)).get();
 
         if (existing) {
-          // Update existing job
+          // Update existing job (preserve existing valid experience if new is null)
+          const keepExistingExp =
+            existing.experienceStated &&
+            existing.minExperience != null &&
+            normalized.minExperience == null;
+
           db.update(jobs)
             .set({
               jobTitle: normalized.jobTitle,
@@ -117,10 +122,14 @@ export async function syncCompany(
               salaryCurrency: normalized.salaryCurrency,
               salaryFrequency: normalized.salaryFrequency,
               salaryFormatted: normalized.salaryFormatted,
-              minExperience: normalized.minExperience,
-              maxExperience: normalized.maxExperience,
-              experienceClassification: normalized.experienceClassification,
-              experienceStated: normalized.experienceStated,
+              minExperience: keepExistingExp ? existing.minExperience : normalized.minExperience,
+              maxExperience: keepExistingExp ? existing.maxExperience : normalized.maxExperience,
+              experienceClassification: keepExistingExp
+                ? existing.experienceClassification
+                : normalized.experienceClassification,
+              experienceStated: keepExistingExp
+                ? existing.experienceStated
+                : normalized.experienceStated,
               extractedSkills: normalized.extractedSkills,
               jobCategory: normalized.jobCategory,
               applicationUrl: normalized.applicationUrl,

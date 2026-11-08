@@ -82,14 +82,19 @@ describe("Normalization Components", () => {
   });
 
   describe("Experience Parser", () => {
-    it("detects junior / SDE 1 in title", () => {
+    it("does not infer experience from job titles when not stated in description", () => {
       const res = parseExperience("Software Development Engineer 1 (SDE 1)", "Work on core systems");
-      expect(res.classification).toBe("junior");
-      expect(res.minExperience).toBe(0);
-      expect(res.experienceStated).toBe(true);
+      expect(res.classification).toBe("unspecified");
+      expect(res.minExperience).toBeNull();
+      expect(res.experienceStated).toBe(false);
+
+      const resSenior = parseExperience("Senior Software Engineer", "Build distributed platforms");
+      expect(resSenior.classification).toBe("unspecified");
+      expect(resSenior.minExperience).toBeNull();
+      expect(resSenior.experienceStated).toBe(false);
     });
 
-    it("detects 1-2 years explicit requirement", () => {
+    it("detects 1-2 years explicit requirement in description", () => {
       const res = parseExperience("Backend Engineer", "Candidates should have 1-2 years of experience in Node.js");
       expect(res.classification).toBe("1-2");
       expect(res.minExperience).toBe(1);
@@ -97,8 +102,8 @@ describe("Normalization Components", () => {
       expect(res.experienceStated).toBe(true);
     });
 
-    it("detects Senior 5+ in title or requirement", () => {
-      const res = parseExperience("Senior Software Engineer", "Build distributed platforms");
+    it("detects Senior 5+ requirement when explicitly stated in description", () => {
+      const res = parseExperience("Senior Software Engineer", "Requires at least 5 years of software engineering experience.");
       expect(res.classification).toBe("5+");
       expect(res.minExperience).toBe(5);
       expect(res.experienceStated).toBe(true);

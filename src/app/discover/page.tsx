@@ -187,6 +187,8 @@ export default function DiscoverPage() {
             <option value="ashby">Ashby</option>
             <option value="greenhouse">Greenhouse</option>
             <option value="lever">Lever</option>
+            <option value="huntyourtribe">HuntYourTribe</option>
+            <option value="freehire">Freehire</option>
           </select>
 
           {/* Minimum Salary */}

@@ -1,0 +1,590 @@
+{
+  "backend_india": {
+    "total": 1099,
+    "durationMs": 1018,
+    "count": 10,
+    "sample": [
+      {
+        "id": "2a9ba3da-0c09-42a5-a0c9-d4524ee86bab",
+        "title": "Backend Engineer",
+        "company": "Vigoursoft Global Solutions",
+        "company_url": "https://vigoursoft.com",
+        "location": "Bengaluru, India",
+        "work_mode": "Hybrid",
+        "level": "Senior",
+        "role_type": "Full-time",
+        "department": "Software Development",
+        "skills": [
+          "postgresql",
+          "apache-spark",
+          "pyspark",
+          "tableau",
+          "apache-iceberg",
+          "trino"
+        ],
+        "minimum_experience_years": 8,
+        "posted_at": "2026-11-07T13:59:45.370Z",
+        "url": "https://vigoursoft.keka.com/careers/jobdetails/80399"
+      },
+      {
+        "id": "3d284738-5ccb-4154-ad92-99499cf6c381",
+        "title": "Node.js Backend Engineer",
+        "company": "Devon Software Services",
+        "company_url": "https://www.devontech.in",
+        "location": "Hyderabad, India",
+        "work_mode": null,
+        "level": null,
+        "role_type": "Full-time",
+        "department": "Software Development",
+        "skills": [
+          "nodejs",
+          "typescript",
+          "postgresql",
+          "mongodb",
+          "sql",
+          "nosql",
+          "git",
+          "ci-cd",
+          "kafka",
+          "aws"
+        ],
+        "minimum_experience_years": null,
+        "posted_at": "2026-11-07T12:31:37.325Z",
+        "url": "https://www.devontech.in/careers/nodejs-backend-engineer"
+      },
+      {
+        "id": "f11cded5-d2bf-4b00-8cba-dd91bbbbc4c7",
+        "title": "Backend JavaScript/Node.js Software Engineer",
+        "company": "Talentica Software",
+        "company_url": "https://www.talentica.com",
+        "location": "India",
+        "work_mode": null,
+        "level": "Senior",
+        "role_type": null,
+        "department": "Software Development",
+        "skills": [
+          "nodejs",
+          "typescript",
+          "javascript",
+          "expressjs",
+          "nestjs",
+          "res-tful-ap-is",
+          "mongodb",
+          "mysql",
+          "postgresql",
+          "jwt",
+          "oauth",
+          "html5",
+          "css3",
+          "git"
+        ],
+        "minimum_experience_years": 5,
+        "posted_at": "2026-11-07T08:32:55.440Z",
+        "url": "https://www.talentica.com/jobdescription/senior-backend-js-developer/"
+      }
+    ]
+  },
+  "swe_bangalore": {
+    "total": 1351,
+    "durationMs": 775,
+    "count": 10,
+    "sample": [
+      {
+        "id": "56ae69f2-9bf6-4255-bd3c-31682b2abc44",
+        "title": "KIBO OMS Developer",
+        "company": "Kognivera",
+        "company_url": "https://kognivera.com",
+        "location": "Bengaluru, India",
+        "work_mode": "On-site",
+        "level": "Senior",
+        "role_type": "Full-time",
+        "department": "Software Development",
+        "skills": [
+          "kibo-oms",
+          "kibo-dev-center",
+          "kibo-webhooks",
+          "order-routing",
+          "nodejs",
+          "typescript",
+          "javascript",
+          "java",
+          "java-spring-boot-api",
+          "microservices",
+          "rest-ap-is",
+          "eda",
+          "ci-cd",
+          "devops",
+          "aws"
+        ],
+        "minimum_experience_years": 4,
+        "posted_at": "2026-11-07T13:54:34.608Z",
+        "url": "https://kognivera.keka.com/careers/jobdetails/163798"
+      },
+      {
+        "id": "62b03cd2-2e77-41a6-9bc6-79d471bc508c",
+        "title": "SFCC OMS Developer",
+        "company": "Kognivera",
+        "company_url": "https://kognivera.com",
+        "location": "Bengaluru, India",
+        "work_mode": null,
+        "level": "Senior",
+        "role_type": "Full-time",
+        "department": "Software Development",
+        "skills": [
+          "salesforce-data-management",
+          "apex",
+          "lightning-web-components",
+          "salesforce-flows",
+          "soql",
+          "sosl",
+          "rest",
+          "soap",
+          "platform-events",
+          "asynchronous",
+          "mulesoft",
+          "boomi",
+          "apigee-api",
+          "spring-boot"
+        ],
+        "minimum_experience_years": 4,
+        "posted_at": "2026-11-07T13:53:37.177Z",
+        "url": "https://kognivera.keka.com/careers/jobdetails/161469"
+      },
+      {
+        "id": "6e0a9173-c46d-49db-a981-dbf36418d410",
+        "title": "SFCC Developer",
+        "company": "Kognivera",
+        "company_url": "https://kognivera.com",
+        "location": "Bengaluru, India",
+        "work_mode": null,
+        "level": "Senior",
+        "role_type": "Full-time",
+        "department": "Software Development",
+        "skills": [
+          "salesforce-b2-b-commerce",
+          "sfcc",
+          "meta-business-manager",
+          "page-designer",
+          "scapi",
+          "ocapi",
+          "javascript",
+          "rest-ap-is",
+          "ci-cd",
+          "agile",
+          "scrum",
+          "services-framework"
+        ],
+        "minimum_experience_years": 6,
+        "posted_at": "2026-11-07T13:53:35.192Z",
+        "url": "https://kognivera.keka.com/careers/jobdetails/159541"
+      }
+    ]
+  },
+  "swe_remote": {
+    "total": 1997,
+    "durationMs": 438,
+    "count": 10,
+    "sample": [
+      {
+        "id": "262e7977-0914-4343-a51d-9e51da24b177",
+        "title": "Fullstack React Native Developer",
+        "company": "Believe SA",
+        "company_url": "https://www.believe.com",
+        "location": "United States",
+        "work_mode": "Remote",
+        "level": "Senior",
+        "role_type": null,
+        "department": "Software Development",
+        "skills": [
+          "react-native",
+          "react",
+          "javascript",
+          "typescript",
+          "ruby-on-rails",
+          "rest-ap-is",
+          "graphql",
+          "react-query",
+          "context-api",
+          "git",
+          "ci-cd",
+          "swift",
+          "objective-c",
+          "kotlin",
+          "java"
+        ],
+        "minimum_experience_years": 6,
+        "posted_at": "2026-11-06T22:49:08.000Z",
+        "url": "https://careers.believe.com/en/offre/fullstack-react-native-developer/"
+      },
+      {
+        "id": "fb74cfbe-8bbf-4c13-8faa-1427e3462552",
+        "title": "Software Engineer II, Attack Detection",
+        "company": "Abnormal AI",
+        "company_url": "https://abnormal.ai",
+        "location": "United States",
+        "work_mode": "Remote",
+        "level": null,
+        "role_type": null,
+        "department": "Software Development",
+        "skills": [
+          "backend-services",
+          "data-pipelines",
+          "machine-learning",
+          "large-scale-language-models",
+          "ai-agents",
+          "automated-testing",
+          "python",
+          "go",
+          "software-design",
+          "gtm-data-structures",
+          "cybersecurity"
+        ],
+        "minimum_experience_years": 2,
+        "posted_at": "2026-11-06T21:17:02.000Z",
+        "url": "https://abnormal.ai/careers/jobs/8197230003?gh_jid=8197230003"
+      },
+      {
+        "id": "42d7b129-5427-40ee-aeef-b5b3a09b2041",
+        "title": "Senior Software Engineer, Cloud Applications",
+        "company": "Temporal Technologies",
+        "company_url": "https://temporal.io",
+        "location": "United States",
+        "work_mode": "Remote",
+        "level": "Senior",
+        "role_type": "Full-time",
+        "department": "Engineering",
+        "skills": [
+          "go",
+          "postgresql",
+          "amazon-redshift",
+          "s3",
+          "gcs",
+          "azure-blob",
+          "snowflake",
+          "databricks",
+          "clickhouse",
+          "big-query",
+          "amazon-kinesis",
+          "firehose",
+          "kubernetes",
+          "temporal",
+          "kafka"
+        ],
+        "minimum_experience_years": null,
+        "posted_at": "2026-11-06T20:16:54.445Z",
+        "url": "https://jobs.ashbyhq.com/temporal/011bf96a-0e14-4b61-9fb9-b19ef6705a71"
+      }
+    ]
+  },
+  "pagination": {
+    "p1_count": 10,
+    "p2_count": 10,
+    "overlap_count": 0,
+    "meta_p1": {
+      "page": 1,
+      "limit": 10,
+      "total_count": 12310,
+      "total_pages": 1000,
+      "has_next": true,
+      "search": {
+        "text": "engineer",
+        "corrected_from": null,
+        "chips": []
+      }
+    },
+    "meta_p2": {
+      "page": 2,
+      "limit": 10,
+      "total_count": 12310,
+      "total_pages": 1000,
+      "has_next": true,
+      "search": {
+        "text": "engineer",
+        "corrected_from": null,
+        "chips": []
+      }
+    }
+  },
+  "detail_test": {
+    "id": "56ae69f2-9bf6-4255-bd3c-31682b2abc44",
+    "status": 200,
+    "durationMs": 464,
+    "keys": [
+      "id",
+      "title",
+      "description",
+      "company",
+      "location",
+      "continent",
+      "country",
+      "city",
+      "work_mode",
+      "level",
+      "role_type",
+      "department",
+      "job_role",
+      "skills",
+      "minimum_experience_years",
+      "posted_at",
+      "first_seen_at",
+      "url"
+    ],
+    "title": "KIBO OMS Developer",
+    "company": {
+      "id": "2337",
+      "name": "Kognivera",
+      "slug": "kognivera",
+      "logo_url": null,
+      "url": "https://kognivera.com"
+    },
+    "url": "https://kognivera.keka.com/careers/jobdetails/163798",
+    "descriptionLength": 2520,
+    "descriptionSnippet": "### Job Summary:\n\nWe are looking for a highly skilled Senior KIBO OMS Developer to design, develop, and maintain order management solutions using the KIBO Order Management System. The ideal candidate should have hands-on experience with KIBO's Dev Center, strong expertise in order routing configurat"
+  },
+  "url_verification": [
+    {
+      "title": "KIBO OMS Developer",
+      "company": "Kognivera",
+      "url": "https://kognivera.keka.com/careers/jobdetails/163798",
+      "http_status": 405,
+      "redirect": null
+    },
+    {
+      "title": "SFCC OMS Developer",
+      "company": "Kognivera",
+      "url": "https://kognivera.keka.com/careers/jobdetails/161469",
+      "http_status": 405,
+      "redirect": null
+    },
+    {
+      "title": "SFCC Developer",
+      "company": "Kognivera",
+      "url": "https://kognivera.keka.com/careers/jobdetails/159541",
+      "http_status": 405,
+      "redirect": null
+    },
+    {
+      "title": "SFCC Developer",
+      "company": "Kognivera",
+      "url": "https://kognivera.keka.com/careers/jobdetails/162096",
+      "http_status": 405,
+      "redirect": null
+    },
+    {
+      "title": "Salesforce B2C Commerce Developer",
+      "company": "Kognivera",
+      "url": "https://kognivera.keka.com/careers/jobdetails/163877",
+      "http_status": 405,
+      "redirect": null
+    },
+    {
+      "title": "Fullstack React Native Developer",
+      "company": "Believe SA",
+      "url": "https://careers.believe.com/en/offre/fullstack-react-native-developer/",
+      "http_status": 200,
+      "redirect": null
+    },
+    {
+      "title": "Software Engineer II, Attack Detection",
+      "company": "Abnormal AI",
+      "url": "https://abnormal.ai/careers/jobs/8197230003?gh_jid=8197230003",
+      "http_status": 200,
+      "redirect": null
+    },
+    {
+      "title": "Senior Software Engineer, Cloud Applications",
+      "company": "Temporal Technologies",
+      "url": "https://jobs.ashbyhq.com/temporal/011bf96a-0e14-4b61-9fb9-b19ef6705a71",
+      "http_status": 200,
+      "redirect": null
+    },
+    {
+      "title": "Backend Software Engineer (Node.js) | LabArchives",
+      "company": "Dotmatics",
+      "url": "https://www.dotmatics.com/jobs/apply?gh_jid=4745498005",
+      "http_status": 200,
+      "redirect": null
+    },
+    {
+      "title": "Software Engineer - Application Platform",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/6242561004?gh_jid=6242561004",
+      "http_status": 301,
+      "redirect": "https://job-boards.greenhouse.io/figma/jobs/6242561004?gh_jid=6242561004"
+    }
+  ],
+  "freshness_audit": [
+    {
+      "title": "Backend Engineer",
+      "company": "Vigoursoft Global Solutions",
+      "posted_at": "2026-11-07T13:59:45.370Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "Node.js Backend Engineer",
+      "company": "Devon Software Services",
+      "posted_at": "2026-11-07T12:31:37.325Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "Backend JavaScript/Node.js Software Engineer",
+      "company": "Talentica Software",
+      "posted_at": "2026-11-07T08:32:55.440Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "Backend Engineer (India)",
+      "company": "Freehand",
+      "posted_at": "2026-11-06T12:26:59.386Z",
+      "ageDays": 1,
+      "under60Days": true
+    },
+    {
+      "title": "Software Engineer, Backend",
+      "company": "PhonePe",
+      "posted_at": "2026-11-05T13:43:20.535Z",
+      "ageDays": 2,
+      "under60Days": true
+    },
+    {
+      "title": "Backend Engineer",
+      "company": "Tarento Group",
+      "posted_at": "2026-11-05T12:55:52.058Z",
+      "ageDays": 2,
+      "under60Days": true
+    },
+    {
+      "title": "Software Engineer (Backend)",
+      "company": "Talview",
+      "posted_at": "2026-11-05T12:55:10.753Z",
+      "ageDays": 2,
+      "under60Days": true
+    },
+    {
+      "title": "SDE-I Backend (Python)",
+      "company": "TrueFan AI",
+      "posted_at": "2026-11-05T12:54:33.107Z",
+      "ageDays": 2,
+      "under60Days": true
+    },
+    {
+      "title": "Software Engineer, Backend",
+      "company": "PhonePe",
+      "posted_at": "2026-11-05T09:32:49.150Z",
+      "ageDays": 2,
+      "under60Days": true
+    },
+    {
+      "title": "Intermediate Backend Engineer , Security Factory",
+      "company": "GitLab",
+      "posted_at": "2026-11-04T19:15:55.000Z",
+      "ageDays": 3,
+      "under60Days": true
+    },
+    {
+      "title": "KIBO OMS Developer",
+      "company": "Kognivera",
+      "posted_at": "2026-11-07T13:54:34.608Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "SFCC OMS Developer",
+      "company": "Kognivera",
+      "posted_at": "2026-11-07T13:53:37.177Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "SFCC Developer",
+      "company": "Kognivera",
+      "posted_at": "2026-11-07T13:53:35.192Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "SFCC Developer",
+      "company": "Kognivera",
+      "posted_at": "2026-11-07T13:53:28.296Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "Salesforce B2C Commerce Developer",
+      "company": "Kognivera",
+      "posted_at": "2026-11-07T13:53:11.258Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Robosoft Technologies",
+      "posted_at": "2026-11-07T13:28:09.563Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Robosoft Technologies",
+      "posted_at": "2026-11-07T13:27:46.737Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": ".NET Developer",
+      "company": "Calpion Software Technologies",
+      "posted_at": "2026-11-07T12:46:54.859Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "Salesforce Developer",
+      "company": "Calpion Software Technologies",
+      "posted_at": "2026-11-07T12:46:36.195Z",
+      "ageDays": 0,
+      "under60Days": true
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Calpion Software Technologies",
+      "posted_at": "2026-11-07T12:45:24.399Z",
+      "ageDays": 0,
+      "under60Days": true
+    }
+  ],
+  "latency_benchmarks": [
+    {
+      "durationMs": 1465,
+      "limit": "600",
+      "remaining": "592",
+      "reset": "49"
+    },
+    {
+      "durationMs": 370,
+      "limit": "600",
+      "remaining": "591",
+      "reset": "49"
+    },
+    {
+      "durationMs": 377,
+      "limit": "600",
+      "remaining": "590",
+      "reset": "48"
+    },
+    {
+      "durationMs": 405,
+      "limit": "600",
+      "remaining": "589",
+      "reset": "48"
+    },
+    {
+      "durationMs": 378,
+      "limit": "600",
+      "remaining": "588",
+      "reset": "48"
+    }
+  ]
+}

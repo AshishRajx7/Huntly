@@ -45,8 +45,16 @@ export function normalizeJob(raw: RawAtsJob, nowIso = new Date().toISOString()):
   // 1. Parse salary
   const salary = parseSalary(raw.rawCompensation, `${raw.jobTitle} ${cleanedDesc} ${raw.location || ""}`);
 
-  // 2. Parse experience
-  const exp = parseExperience(raw.jobTitle, cleanedDesc);
+  // 2. Parse experience (prefers structured metadata, otherwise extracts from description; never infers from title)
+  const structuredExp = {
+    minExperience:
+      raw.structuredMinExperience ??
+      (typeof raw.metadata?.minExperience === "number" ? raw.metadata.minExperience : null),
+    maxExperience:
+      raw.structuredMaxExperience ??
+      (typeof raw.metadata?.maxExperience === "number" ? raw.metadata.maxExperience : null),
+  };
+  const exp = parseExperience(raw.jobTitle, cleanedDesc, structuredExp);
 
   // 3. Parse remote eligibility
   const remote = parseRemote(raw.jobTitle, raw.location, raw.isRemote, cleanedDesc);
